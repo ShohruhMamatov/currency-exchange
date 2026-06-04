@@ -1,0 +1,14 @@
+# HTTP client for the Frankfurter API
+requests>=2.31
+
+# Retry/backoff for resilient API calls
+tenacity>=8.2
+
+# Scheduling the daily run (timezone-aware cron)
+APScheduler>=3.10
+
+# Load configuration from a local .env file
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0
